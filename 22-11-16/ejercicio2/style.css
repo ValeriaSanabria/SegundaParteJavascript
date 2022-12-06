@@ -29,14 +29,13 @@ form {
     border-radius: 0.5vw;
     background-color: #db86f0;
     font-weight: 700;
-    text-transform: uppercase;
     font-size: 3vw;
 }
 #btnCrear:hover{
     background-color: #f0d26f;
 }
 .cards{
-    margin-left: 40%;
+    margin-left: 43%;
 }
 input, textarea {
     width: 100%;
