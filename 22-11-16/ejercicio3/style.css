@@ -1,0 +1,64 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+.container, .divCounter, .containerEnviroment {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    background-image: url("https://alfabetajuega.com/hero/2021/05/colocando-bomba-cs-go.jpg?width=1200");
+    background-size:cover;
+}
+.containerEnviroment{
+    flex-direction: column;
+}
+.dimension {
+    width: 8vw;
+    height: 15vh;
+    margin-right: 1vw;
+    border-radius: 1vw;
+    border: black 3px solid;
+}
+.yellow {
+    background-color: yellow;
+}
+.orange {
+    background-color: orange;
+}
+.red {
+    background-color: red;
+}
+.hide {
+    display: none;
+}
+.img {
+    width: 95vw;
+    height: 95vh;
+}
+.counter {
+    font-size: 15vh;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+#btnBomb{
+    width: 20vw;
+    height: 10vh;
+    font-size: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: orange;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 0.5vw;
+}
+#btnBomb:hover{
+    background-color: red;
+    width: 25vw;
+    height: 15vh;
+    font-size: 2.5vw ;
+}
+#bombSound, #explosion {
+    display: none;
+}

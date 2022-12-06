@@ -1,0 +1,46 @@
+body {
+    background-image: url("Pinterest.jpeg");
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 50px 5px 50px 5px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 10%;
+    background-color: #68f5ca;
+}
+.card {
+    width: 18rem;
+    background-color: #db86f0;
+    text-align: center;
+    margin: 5px;
+    padding: auto;
+}
+.card-title{
+    background-color: #a548bd ;
+    text-transform: uppercase;
+}
+#btnCrear {
+    border-radius: 0.5vw;
+    background-color: #db86f0;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 3vw;
+}
+#btnCrear:hover{
+    background-color: #f0d26f;
+}
+.cards{
+    margin-left: 40%;
+}
+input, textarea {
+    width: 100%;
+}
+.hide {
+    display: none;
+}
