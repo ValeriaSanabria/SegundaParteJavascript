@@ -1,0 +1,77 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    background-image: url("./img/fondo.png");
+    background-size: cover;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+div button {
+    transition: background-color 3s;
+    background-color: #2a363b;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    color: #fecea8;
+    margin-top: 10%;
+}
+
+div button:hover {
+    background-color: #2a363b;
+    animation-name: efectoCrear;
+    animation-duration: 4s;
+
+}
+
+div button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.detallesCard {
+    width: 18rem;
+    margin: 15px;
+    border: 0px;
+    background-color: #deb887;
+    border-style: groove;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.textCard {
+    font-size: 30px;
+    text-align: center;
+}
+
+.ocultar {
+    display: none;
+}
+
+.divBomba {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 80vh;
+}
+
+.divBomba img{
+    margin-top: 40px;
+    border-radius: 15px;
+
+}
+
+
