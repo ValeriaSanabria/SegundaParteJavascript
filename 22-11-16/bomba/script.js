@@ -23,12 +23,12 @@ function cuentaRegresiva(tiempo, pFunction) {
 
 let body = document.querySelector("body");
 let btnComenzar = document.querySelector("div button");
-let seccionCards = document.querySelector("div button");
+let seccionCards = document.querySelector(".card");
 
 function crearCard(pTiempo) {
     //crear componentes Cards
     let divCard = document.createElement("div");
-    divCard.classList.add("detallesCard");
+    divCard.classList.add("card","detallesCard");
     let textCard = document.createElement("p");
     textCard.classList.add("textCard");
     textCard.innerText = pTiempo;

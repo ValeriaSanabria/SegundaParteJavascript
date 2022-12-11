@@ -38,7 +38,7 @@ div button:active {
     transform: translateY(4px);
 }
 
-.detallesCard {
+.detallesCard{
     width: 18rem;
     margin: 15px;
     border: 0px;
@@ -47,9 +47,14 @@ div button:active {
     border-radius: 25px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    
+}
+
+.card{
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .textCard {
