@@ -18,8 +18,8 @@ form {
     width: 18rem;
     background-color: #db86f0;
     text-align: center;
-    margin: 5px;
-    padding: auto;
+    margin: 10px;
+    justify-content: center;
 }
 .card-title{
     background-color: #a548bd ;
